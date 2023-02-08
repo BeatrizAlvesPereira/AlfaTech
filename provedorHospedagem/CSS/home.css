@@ -1,0 +1,278 @@
+/* Estilização da página inteira */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF
+}
+.limita-area{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* 1° serção - estilização do cabeçalho */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+.cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    display: inline-flex;
+    justify-content: left;
+    box-sizing: border-box;
+}
+.logo-icon img{
+    width: 80px;
+}
+.logo-icon{
+    display: flex;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 0 10px;
+}
+.logo h1{
+    font-size: 32px;
+}
+.logo p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #2F86D6;
+}
+.navegacao{
+    width: 100%;
+}
+.navegacao a{
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #233032;
+}
+
+/* 2° serção - estilização do banner */
+.banner{
+    width: 100%;
+    background-color: #2F86D6;
+    color: #FFFFFF;
+}
+.informacoes-banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.informacoes-banner p{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.informacoes-banner h2{
+    font-size: 28px;
+}
+
+/* 3° serção - estilização do primeiro anúncio */
+.primeiro-anuncio{
+    width: 100%;
+    padding: 30px 0;
+    color: #FFFFFF;
+    background-color: #233032;
+}
+.informacoes-primeiro-anuncio{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.informacoes-primeiro-anuncio p{
+    font-size: 16px;
+}
+.informacoes-primeiro-anuncio h2{
+    font-size: 24px;
+}
+.botao-azul{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #2F86D6;
+}
+.botao a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.botao img::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("img css/icone-foguete.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* 4° serção - estilização da informação */
+.informacoes-principal{
+    width: 100%;
+    padding: 60px 0;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.informacoes-principal h2{
+    font-size: 32px;
+    text-align: center;
+}
+.informacoes-principal span{
+    color: #2F86D6;
+}
+.informacoes-complementar{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 60px 0;
+}
+.informacoes-adn{
+    width: 100%;
+    padding: 5px;
+}
+.informacoes-adn img{
+    width: 100px;
+    padding: 0 0 15px 0
+}
+.informacoes-adn p{
+    font-size: 16px;
+    padding: 15px 0
+}
+.informacoes-adn h3{
+    font-size: 18px;
+}
+/* 5° serção - estilização da tabela de plano */
+#plano{
+    width: 100%;
+    background-color: #F1F3F7;
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+#plano h2{
+    font-size: 32px;
+    padding-bottom: 60px;
+}
+#plano span{
+    color:  #2F86D6;
+}
+.tabela-plano{
+    width: 100%;
+    display: flex;
+}
+table{
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 50px #2F86D6;
+    text-align: center;
+    box-sizing: border-box;
+}
+tr{
+    background-color: #FFFFFF;
+}
+th h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+thead img{
+    width: 100px;
+    padding: 10px 0;
+}
+thead th p{
+    width: 167px;
+    margin: 0 auto;
+    color: #A89F9F;
+    font-size: 13px;
+    font-style: small;
+    padding: 20px;
+    box-sizing: border-box;
+}
+tbody td{
+    padding: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+tbody tr:nth-child(odd){
+    background-color: #F6F6F6;
+}
+tbody tr:nth-child(even){
+    background-color: #F1F3F7;
+}
+
+/* 6° serção - estilizar o segundo anúncio */
+.segundo-anuncio{
+    width: 100%;
+    padding: 30px 0;
+    color: #FFFFFF;
+    background-color: #2F86D6;
+    box-sizing: border-box;
+}
+.informacoes-segundo-anuncio{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.informacoes-segundo-anuncio h2{
+    width: 525px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+.botao-preto{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #233032;
+}
+
+/* 7° serção - rodapé */
+footer{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.rodape{
+    padding: 60px 0;
+    line-height: 40px;
+}
+footer .logo-icon{
+    display: inline-flex;
+    align-items: center;
+    text-align: justify;
+    padding: 30px 0;
+}
+.mais-contato p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.desenvolvedor{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #F1F3F7;
+}
+.desenvolvedor p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.desenvolvedor span{
+    color: #2F86D6;
+}

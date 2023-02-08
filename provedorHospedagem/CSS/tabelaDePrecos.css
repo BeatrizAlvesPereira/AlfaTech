@@ -1,0 +1,145 @@
+/* Estilização da página toda */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+.limita-area{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* 1° serção - estilização cabeçalho */
+header{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #2F86D6;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-icon{
+    display: flex;
+}
+.logo-icon img{
+    width: 80px;
+}
+.nome-logo{
+    margin-left: 10px;
+}
+.nome-logo h1{
+    font-size: 32px;
+}
+.nome-logo p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.navegacao a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+
+/* 2° serção - estilização da tabela de preços */
+.conteudo-principal{
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.cabecalho-da-tabela th:first-child{
+    visibility: hidden;
+}
+.cabecalho-da-tabela:nth-child(1){
+    background-color: #F1F3F7;
+}
+.linhas-da-tabela td:nth-child(1){
+    background-color: #F1F3F7;
+}
+.cabecalho-da-tabela th:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #2F86D6;
+}
+.celula-lateral{
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: justify;
+}
+.celula-cabecalho, td{
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #F1F3F7;
+    border-right: 1px solid #F1F3F7;
+}
+.celula-cabecalho p{
+    font-size: 14px;
+    font-style: small;
+    font-weight: 500;
+    color: #A8A4A4;
+}
+.celula-cabecalho h2{
+    font-size: 36px;
+}
+.celula-cabecalho p{
+    font-size: 14px;
+    font-style: small;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #A8A4A4;
+}
+.linhas-da-tabela td{
+    text-transform: uppercase;
+}
+.bola-azul::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #2F86D6;
+    border-radius: 10px;
+}
+
+/* 3° serção - estilização do rodapé */
+footer{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #2F86D6;
+}
+.rodape{
+    padding: 60px 0;
+}
+footer .logo-icon{
+    display: inline-flex;
+    align-items: center;
+    text-align: justify;
+}
+.direito-da-empresa p{
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+.desenvolvedor{
+    padding: 20px 0;
+    background-color: #FFFFFF;
+}
+.desenvolvedor span{
+    color: #2F86D6;
+}
+footer p{
+    font-size: 16px;
+    font-weight: bold;
+}
